@@ -12,11 +12,15 @@ Added section 6.2 to address this class of computation offloading techniques.
 
 Section 4.2.2 (second paragraph) now cites DSWP in reference to similar techniques which partition the dependence graph.
 
-> 1) One thing that is not clear is whether individual statements in a program must only be part of one region...
-> 2) Are regions intended to be contiguous chunks of code? ...
+> One thing that is not clear is whether individual statements in a program must only be part of one region...
+> Are regions intended to be contiguous chunks of code? ...
 
 The first few paragraphs of Section 4.2 attempt to establish how instructions are placed in a single, contiguous region by design, which means they cannot overlap, that instructions are only ever moved to the previous region, and that lifting these restrictions is simply left for future work.
 
-> 3) Instruction hoisting isn't done until code is generated, correct? What if two regions are extended based on incompatible hoisting decisions?
+> Instruction hoisting isn't done until code is generated, correct? What if two regions are extended based on incompatible hoisting decisions?
 
 The penultimate paragraph in 4.2.3 now explains this.
+
+> Figure 1b is never really explained. It appears to be a standard dependence graph, with one node per statement, but the node labels do not make it clear which statement each node represents.
+
+Now explained in 4.2.2, pararaph 2.
