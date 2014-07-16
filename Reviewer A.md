@@ -21,6 +21,10 @@ The first few paragraphs of Section 4.2 attempt to establish how instructions ar
 
 The penultimate paragraph in 4.2.3 now explains this.
 
+> When describing the programming model in Section 3, it's not clear whether you are describing restrictions on the programming model that the programmer must adhere to, or constraints on generated code that the compiler must enforce. Who actually determines the locales of objects?
+
+Added some explanation earlier in section 3.1, and I believe the last paragraph in section 3.1 should answer most of the rest of this.
+
 > Figure 1b is never really explained. It appears to be a standard dependence graph, with one node per statement, but the node labels do not make it clear which statement each node represents.
 
 Now explained in 4.2.2, pararaph 2.
