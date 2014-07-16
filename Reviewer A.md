@@ -2,7 +2,7 @@
 
 > Partitioning a program using computation migration to avoid communication goes back to at least the early 90s. Hsieh, Wang and Weihl looked at translating programmer annotations of migrateable tasks into continuations that could be moved to data (PPoPP '93, SC '96). Rogers et al (TOPLAS '95) and Carlisle and Rogers (PPoPP '95) looked at dynamically choosing whether to migrate tasks to data or not, again using something that looks like migrating computation -- the programming model even looks roughly like PGAS, with data structures distributed across heaps that individual processes own.
 
-Added a paragraph, *Early DSM systems* in Section 6.1 to cite these.
+Added a paragraph, *Early DSM systems*, in Section 6.1 to cite these.
 
 > More recently, there has been a lot of work on automatically partitioning programs between devices for computation offloading (Wang and Franz, 2008; Wang and Li, PLDI 2004) or even for security (Chong et al, SOSP '04), which has a similar flavor: certain statements in a program are "anchored" to an execution site.
 
