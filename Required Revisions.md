@@ -6,4 +6,4 @@ Some of the original *Background* section has been moved to a later *Related Wor
 
 > (2) Improve the writing in Section 4 (presentation of the algorithm). Possibly include a more carefully worked out example to illustrate it.
 
-Some clarifying examples and explanations have been added to Section 4 ("Alembic analysis"). Section 4.2,  paragraph 2 now explains why regions may not overlap, and duplicating instructions is intentionally not considered.
+Some clarifying examples and explanations have been added to Section 4 ("Alembic analysis"). Section 4.2,  paragraph 2 now explains why regions may not overlap, and the possibility of duplicating instructions is intentionally not considered.
